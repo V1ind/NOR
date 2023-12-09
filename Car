@@ -1,0 +1,24 @@
+
+ function Car(year, model) {
+   this.model = model;
+   this.year = year;
+ }
+
+ Car.prototype.signal = function () {
+   return Pibib;
+ };
+
+ function Porsche(engine, doors) {
+   Car.call(this, 2020, Porsche);
+   this.engine = engine;
+   this.doors = doors;
+ }
+
+ Porsche.prototype = Object.create(Car.prototype);
+
+ let porsche = new Porsche(V8, 2);
+ let car = new Car(2021, Generic);
+
+ console.log(porsche.signal());
+ console.log(car.signal());
+
