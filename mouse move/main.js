@@ -28,3 +28,4 @@ function moveBall(event) {
 }
 
 document.addEventListener('mousemove', moveBall);
+//setInterval
