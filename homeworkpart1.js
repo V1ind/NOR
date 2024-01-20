@@ -154,3 +154,26 @@
 
 
 
+
+ 
+// Custom Deduplication Function
+
+// let a = [{ a: 1 }, { b: 2 }, { c: 3 }, { a: 1 }, { b: 2 }, { c: 3 }, { d: 4 }];
+
+// function removeDuplicates(arr) {
+//   let newSet = new Set();
+//   let result = [];
+
+//   for (const obj of arr) {
+//     const strValue = JSON.stringify(obj);
+
+//     if (!newSet.has(strValue)) {
+//         newSet.add(strValue);
+//       result.push(obj);
+//     }
+//   }
+
+//   return result;
+// }
+
+// console.log(removeDuplicates(a));
